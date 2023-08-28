@@ -5,5 +5,36 @@
 </head>
 <body>
 	<h1>easytech BTL file editor</h1>
+	<input type="file" id="btl"></input>
+
+	<script type="importmap">
+	{
+		"imports": {
+			"BTLReader": "./assets/scripts/BTL/BTLReader.js"
+		}
+	}
+	</script>
+	<script type="module">
+import { BTLReader } from "BTLReader";
+
+window.onload = () => {
+	console.log("Init");
+	const btlUpload = document.getElementById("btl");
+	btlUpload.addEventListener("change", loadBtl);
+};
+
+function loadBtl(ev)
+{
+	console.log("Loading btl");
+
+	const reader = new FileReader();
+	reader.addEventListener("load", (ev) => {
+		console.log("Load");
+		const reader = new BTLReader();
+		reader.readFromArrayBuffer(ev.target.result);
+	});
+	reader.readAsArrayBuffer(ev.target.files[0]);
+}
+	</script>
 </body>
 </html>
