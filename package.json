@@ -1,0 +1,20 @@
+{
+  "name": "easytech-btl-editor",
+  "version": "1.0.0",
+  "description": "Program to edit easytech BTL scenario files online.",
+  "keywords": ["easytech", "glory of generals", "world conqueror 4", "european war"],
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pyogenics/easytech-btl-editor.git"
+  },
+  "author": "Pyogenics, https://github.com/Pyogenics",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Pyogenics/easytech-btl-editor/issues"
+  },
+  "homepage": "https://github.com/Pyogenics/easytech-btl-editor#readme"
+}
