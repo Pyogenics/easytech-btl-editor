@@ -17,5 +17,9 @@ The first 4 bytes of any btl file store its' version, the version corresponds to
 | European War 4    | 2       |
 
 ### Header
-[World Conqueror 4](docs/header/WC4.md)
-[European War 4](docs/header/EW4.md)
+- [World Conqueror 4](docs/header/WC4.md)
+- [European War 4](docs/header/EW4.md)
+
+## Credits
+[WC4 btl](https://european-war-4.boards.net/thread/9609/wc4-btl-guide)
+[EW4 btl](https://european-war-4.boards.net/thread/13480/ew4-btl-files)
