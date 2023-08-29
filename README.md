@@ -10,13 +10,16 @@ Not working.
 BTL files store scenario information for games made by [easytech](https://www.ieasytech.com), this format is used by: World Conqueror, Glory of Generals and European War.
 
 ### Version
-The first 4 bytes of any btl file store its' version, the version corresponds to the game the file is intended for.
+The first 4 bytes of any btl file store its' version.
 
 ***This table is still TODO and very incomplete***
-| Game              | Version |
-|-------------------|---------|
-| World Conqueror 4 | 1       |
-| European War 4    | 2       |
+| Games                                     | Version |
+|-------------------------------------------|---------|
+| World Conqueror 4, Glory of Generals      | 1       |
+| European War 4                            | 2       |
+| World Conqueror 3, Glory of Generals 2    | 3       |
+| Glory of Generals 3                       | 32      |
+
 
 ### Header
 - [World Conqueror 4](docs/header/WC4.md)
